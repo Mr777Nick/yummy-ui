@@ -1,0 +1,62 @@
+.yummy-label {
+  display: inline-block;
+  text-align: center;
+  border-radius: 100px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.yummy-label--info {
+  background: #F0F7FF;
+  color: #2371C6;
+}
+
+.yummy-label--warning {
+  background: #E3F6EB;
+  color: #0B6732;
+}
+
+.yummy-label--danger {
+  background: #FCE3D6;
+  color: #AF2631;
+}
+
+.yummy-label--gray {
+  background: #EBEBEB;
+  color: #9E9E9E;
+}
+
+.yummy-label--small {
+  padding: 3px 8px;
+}
+
+.yummy-label--medium {
+  padding: 6px 12px;
+}
+
+.yummy-label--large {
+  padding: 6px 12px;
+}
+
+.yummy-label-font--small {
+  font-size: 10px;
+  margin: 0;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.yummy-label-font--medium {
+  font-size: 14px;
+  margin: 0;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.yummy-label-font--large {
+  font-size: 20px;
+  margin: 0;
+  display:table-cell;
+  vertical-align:middle;
+}
