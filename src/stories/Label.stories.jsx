@@ -3,7 +3,7 @@ import React from 'react';
 import { Label } from './Label';
 
 export default {
-  title: 'Example/Label',
+  title: 'Yummy UI/Label',
   component: Label,
   argTypes: {
     backgroundColor: { control: 'color' },
@@ -13,6 +13,7 @@ export default {
 const Template = (args) => <Label {...args} />;
 
 export const InfoSmall = Template.bind({});
+InfoSmall.storyName = 'Info - Small';
 InfoSmall.args = {
   type: 'info',
   size: 'small',
@@ -20,20 +21,21 @@ InfoSmall.args = {
 };
 
 export const InfoMedium = Template.bind({});
+InfoMedium.storyName = 'Info - Medium';
 InfoMedium.args = {
-  type: 'info',
+  ...InfoSmall.args,
   size: 'medium',
-  label: 'Label',
 };
 
 export const InfoLarge = Template.bind({});
+InfoLarge.storyName = 'Info - Large';
 InfoLarge.args = {
-  type: 'info',
+  ...InfoSmall.args,
   size: 'large',
-  label: 'Label',
 };
 
 export const WarningSmall = Template.bind({});
+WarningSmall.storyName = 'Warning - Small';
 WarningSmall.args = {
   type: 'warning',
   size: 'small',
@@ -41,20 +43,21 @@ WarningSmall.args = {
 };
 
 export const WarningMedium = Template.bind({});
+WarningMedium.storyName = 'Warning - Medium';
 WarningMedium.args = {
-  type: 'warning',
+  ...WarningSmall.args,
   size: 'medium',
-  label: 'Label',
 };
 
 export const WarningLarge = Template.bind({});
+WarningLarge.storyName = 'Warning - Large';
 WarningLarge.args = {
-  type: 'warning',
+  ...WarningSmall.args,
   size: 'large',
-  label: 'Label',
 };
 
 export const DangerSmall = Template.bind({});
+DangerSmall.storyName = 'Danger - Small';
 DangerSmall.args = {
   type: 'danger',
   size: 'small',
@@ -62,20 +65,21 @@ DangerSmall.args = {
 };
 
 export const DangerMedium = Template.bind({});
+DangerMedium.storyName = 'Danger - Medium';
 DangerMedium.args = {
-  type: 'danger',
+  ...DangerSmall.args,
   size: 'medium',
-  label: 'Label',
 };
 
 export const DangerLarge = Template.bind({});
+DangerLarge.storyName = 'Danger - Large';
 DangerLarge.args = {
-  type: 'danger',
+  ...DangerSmall.args,
   size: 'large',
-  label: 'Label',
 };
 
 export const GraySmall = Template.bind({});
+GraySmall.storyName = 'Gray - Small';
 GraySmall.args = {
   type: 'gray',
   size: 'small',
@@ -83,15 +87,15 @@ GraySmall.args = {
 };
 
 export const GrayMedium = Template.bind({});
+GrayMedium.storyName = 'Gray - Medium';
 GrayMedium.args = {
-  type: 'gray',
+  ...GraySmall.args,
   size: 'medium',
-  label: 'Label',
 };
 
 export const GrayLarge = Template.bind({});
+GrayLarge.storyName = 'Gray - Large';
 GrayLarge.args = {
-  type: 'gray',
+  ...GraySmall.args,
   size: 'large',
-  label: 'Label',
 };

@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './label.css';
 
+/**
+ * A component for showing highlighted information
+ */
 export const Label = ({ type, size, label, backgroundColor, ...props }) => {
   return (
     <div
@@ -19,12 +22,24 @@ export const Label = ({ type, size, label, backgroundColor, ...props }) => {
 };
 
 Label.propTypes = {
+  /**
+   * Type of the button's theme
+   */
   type: PropTypes.oneOf(['info', 'warning', 'danger', 'gray']),
-
+  
+  /**
+   * Size of the button
+   */
   size: PropTypes.oneOf(['small', 'medium', 'large']),
 
+  /**
+   * Label of the button
+   */
   label: PropTypes.string,
 
+  /**
+   * Optional background color override
+   */
   backgroundColor: PropTypes.string,
 };
 
