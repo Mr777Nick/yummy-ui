@@ -1,0 +1,51 @@
+.yummy-banner {
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 50px;
+}
+
+.yummy-banner i {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  text-align: center;
+}
+
+.yummy-banner--info {
+  background: #F0F7FF;
+}
+
+.yummy-banner--info i {
+  color: #4393EA;
+}
+
+.yummy-banner--success {
+  background: #E3F6EB;
+}
+
+.yummy-banner--success i {
+  color: #1A1A1A;
+}
+
+.yummy-banner--warning {
+  background: #FFF8EF;
+}
+
+.yummy-banner--warning i {
+  color: #FF8A00;
+}
+
+.yummy-banner--danger {
+  background: #f6e3e3;
+}
+
+.yummy-banner--danger i {
+  color: #200d0d;
+}
