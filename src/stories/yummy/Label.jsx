@@ -23,17 +23,17 @@ export const Label = ({ type, size, label, backgroundColor, ...props }) => {
 
 Label.propTypes = {
   /**
-   * Type of the button's theme
+   * Type of the label's theme
    */
   type: PropTypes.oneOf(['info', 'warning', 'danger', 'gray']),
   
   /**
-   * Size of the button
+   * Size of the label
    */
   size: PropTypes.oneOf(['small', 'medium', 'large']),
 
   /**
-   * Label of the button
+   * Label of the label
    */
   label: PropTypes.string,
 
