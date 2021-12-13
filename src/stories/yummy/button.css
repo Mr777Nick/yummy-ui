@@ -1,0 +1,98 @@
+.yummy-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+
+  position: static;
+  width: 248px;
+  height: 59px;
+  left: 20px;
+  top: 20px;
+
+  background: #006551;
+  border-radius: 8px;
+  border: none;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  cursor: pointer;
+}
+
+.yummy-button--outline {
+  background: white;
+  border: 2px solid #006551;
+}
+
+.yummy-button--outline i {
+  color: #006551;
+}
+
+.yummy-button:active:enabled {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.yummy-button--outline:active:enabled {
+  background: #006551;
+  border: 2px solid #006551;
+  color: white;
+}
+
+.yummy-button--outline:hover:enabled {
+  background: #006551;
+}
+
+.yummy-button--outline:hover:enabled i {
+  color: white;
+}
+
+.yummy-button--outline:active:enabled i {
+  color: grey;
+}
+
+.yummy-button:disabled {
+  background: #EBEBEB;
+  cursor: not-allowed;
+}
+
+.yummy-button--outline:disabled {
+  background: white;
+  border: 2px solid #EBEBEB;;
+}
+
+.yummy-button:disabled i {
+  color: #9E9E9E;
+}
+
+.text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.text--with-icon {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  color: #FFFFFF;
+}
