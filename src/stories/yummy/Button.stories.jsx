@@ -16,7 +16,6 @@ export const ButtonTextOnly = Template.bind({});
 ButtonTextOnly.storyName = 'Button - Text Only';
 ButtonTextOnly.args = {
   text: 'Button Title',
-  icon: null,
   disabled: false,
   loading: false,
   outline: false,
