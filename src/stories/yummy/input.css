@@ -1,0 +1,55 @@
+.yummy-input input {
+  border: 0px;
+  border-bottom: 1px solid #BDBDBD;
+  padding: 8px 0 10px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1A1A1A;
+}
+
+.yummy-input input:disabled {
+  cursor: not-allowed;
+  color: #9E9E9E;
+}
+
+.yummy-input input:focus {
+  outline: none;
+  font-size: 25px;
+}
+
+.yummy-input input::placeholder {
+  color: #EBEBEB;
+}
+
+.yummy-input .label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9E9E9E;
+  margin-bottom: 4px;
+}
+
+.yummy-input .helper-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #9E9E9E;
+  margin-top: 8px;
+}
+
+.yummy-input--error input {
+  border-bottom: 1px solid #CC3434;
+}
+
+.yummy-input--error .helper-text {
+  color: #CC3434;
+}
