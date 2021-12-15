@@ -19,7 +19,8 @@
     "storybook-docs": "start-storybook --docs --no-manager-cache",
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic --project-token=5857e8415754",
-    "build-ui": "cross-env BABEL_ENV=production babel src -d dist"
+    "build-ui": "cross-env BABEL_ENV=production babel src -d dist",
+    "release": "auto shipit --base-branch=master"
   },
   "eslintConfig": {
     "extends": [
