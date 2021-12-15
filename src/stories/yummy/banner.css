@@ -1,5 +1,5 @@
 .yummy-banner {
-  border-radius: 8px;
+  border-radius: 18px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .yummy-banner--info {
-  background: #F0F7FF;
+  background: #4220d8;
 }
 
 .yummy-banner--info i {
